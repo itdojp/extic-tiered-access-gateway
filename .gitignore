@@ -1,4 +1,19 @@
 # これはExtic 多段階アクセス制御モデルゲートウェイに関連するプロジェクトです
 # SCIMベースの接続とアクセス制御を検証します
 
-scim-connection-tests/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ログファイル
+*.log
+scim-connection-tests/logs/
+
+# 環境設定
+.env
+.venv
+env/
+venv/
+ENV/
